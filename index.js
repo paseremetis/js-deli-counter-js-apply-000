@@ -5,14 +5,14 @@
 //     to illustrate the customer's place in line.
 //Once the loop is run, the function will return the string:
 //    `Welcome (last array element), you are (assigned number) in line.`
-function takeANumber(katzDeli, name){
+function takeANumber(katzDeli){
   let i = 0;
-    while (i < 1){
-      katzDeli.push(`${name}`);
-      i++;
+  while i < 1{
+    katzDeli.push(`${name}`);
+    i++;
   }
-  return (`Welcome, ${name}. You are number ${katzDeli.length} in line.`)
-}
+    return (`Welcome, ${name}. You are number ${katzDeli.length} in line.`)
+  }
 //This function establishes the 'deliLine' array as the parameter.
 //When the array length equals 0, the function returns the string:
 //    `There is nobody waiting to be served!`
